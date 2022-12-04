@@ -1,9 +1,9 @@
-package com.ocp.day1;
+package com.bmi;
 
 public class BMIUtil {
-	public static void calcAndPrintBMI(double height, double weight) {
-		double bmiValue = weight/Math.pow(height/100, 2);
-		System.out.printf("身高: %.1f 體重: %.1f BMI: %.2f\n", weight, height, bmiValue);
+	public static void calcBMI(double height, double weight) {
+		double bmi = weight/Math.pow(height/100, 2);
+		System.out.printf("height: %.1f weight: %.1f BMI: %.2f\n", weight, height, bmi);
 	}
 	
 	
